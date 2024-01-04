@@ -1,0 +1,21 @@
+body {
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+}
+
+#suggestion {
+    position: relative;
+    z-index: 1;
+    /* Các style khác */
+}
+
+#fireworks {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2; /* Đảm bảo rằng pháo hoa ở trên cùng */
+    width: 100%; /* Điều chỉnh kích thước phù hợp */
+    height: auto;
+    display: none; /* Ẩn ban đầu */
+}
